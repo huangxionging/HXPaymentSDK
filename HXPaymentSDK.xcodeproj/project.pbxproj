@@ -22,11 +22,6 @@
 		F273DD571C869C6200A43366 /* HXPaymentAlipayAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F273DD561C869C6200A43366 /* HXPaymentAlipayAction.m */; };
 		F273DDBE1C86C36F00A43366 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F273DD591C86C36F00A43366 /* AlipaySDK.bundle */; };
 		F273DDBF1C86C36F00A43366 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F273DD5A1C86C36F00A43366 /* AlipaySDK.framework */; };
-		F273DDC01C86C36F00A43366 /* pkcs8_private_key.txt in Resources */ = {isa = PBXBuildFile; fileRef = F273DDA71C86C36F00A43366 /* pkcs8_private_key.txt */; };
-		F273DDC11C86C36F00A43366 /* rsa_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = F273DDA81C86C36F00A43366 /* rsa_private_key.pem */; };
-		F273DDC21C86C36F00A43366 /* rsa_private_key.txt in Resources */ = {isa = PBXBuildFile; fileRef = F273DDA91C86C36F00A43366 /* rsa_private_key.txt */; };
-		F273DDC31C86C36F00A43366 /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = F273DDAA1C86C36F00A43366 /* rsa_public_key.pem */; };
-		F273DDC41C86C36F00A43366 /* rsa_public_key.txt in Resources */ = {isa = PBXBuildFile; fileRef = F273DDAB1C86C36F00A43366 /* rsa_public_key.txt */; };
 		F273DDC51C86C36F00A43366 /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F273DDAE1C86C36F00A43366 /* base64.m */; };
 		F273DDC61C86C36F00A43366 /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = F273DDB11C86C36F00A43366 /* DataSigner.m */; };
 		F273DDC71C86C36F00A43366 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F273DDB31C86C36F00A43366 /* DataVerifier.m */; };
@@ -171,11 +166,6 @@
 		F273DDA41C86C36F00A43366 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
 		F273DDA51C86C36F00A43366 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
 		F273DDA61C86C36F00A43366 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
-		F273DDA71C86C36F00A43366 /* pkcs8_private_key.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pkcs8_private_key.txt; sourceTree = "<group>"; };
-		F273DDA81C86C36F00A43366 /* rsa_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_private_key.pem; sourceTree = "<group>"; };
-		F273DDA91C86C36F00A43366 /* rsa_private_key.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_private_key.txt; sourceTree = "<group>"; };
-		F273DDAA1C86C36F00A43366 /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
-		F273DDAB1C86C36F00A43366 /* rsa_public_key.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.txt; sourceTree = "<group>"; };
 		F273DDAD1C86C36F00A43366 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
 		F273DDAE1C86C36F00A43366 /* base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64.m; sourceTree = "<group>"; };
 		F273DDAF1C86C36F00A43366 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
@@ -340,11 +330,6 @@
 				F273DD591C86C36F00A43366 /* AlipaySDK.bundle */,
 				F273DD5A1C86C36F00A43366 /* AlipaySDK.framework */,
 				F273DD5B1C86C36F00A43366 /* openssl */,
-				F273DDA71C86C36F00A43366 /* pkcs8_private_key.txt */,
-				F273DDA81C86C36F00A43366 /* rsa_private_key.pem */,
-				F273DDA91C86C36F00A43366 /* rsa_private_key.txt */,
-				F273DDAA1C86C36F00A43366 /* rsa_public_key.pem */,
-				F273DDAB1C86C36F00A43366 /* rsa_public_key.txt */,
 				F273DDAC1C86C36F00A43366 /* Util */,
 			);
 			path = AlipaySDK;
@@ -578,14 +563,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F273DD221C86834000A43366 /* LaunchScreen.storyboard in Resources */,
-				F273DDC11C86C36F00A43366 /* rsa_private_key.pem in Resources */,
 				F273DD1F1C86834000A43366 /* Assets.xcassets in Resources */,
 				F273DDBE1C86C36F00A43366 /* AlipaySDK.bundle in Resources */,
 				F273DD1A1C86834000A43366 /* Main.storyboard in Resources */,
-				F273DDC41C86C36F00A43366 /* rsa_public_key.txt in Resources */,
-				F273DDC01C86C36F00A43366 /* pkcs8_private_key.txt in Resources */,
-				F273DDC31C86C36F00A43366 /* rsa_public_key.pem in Resources */,
-				F273DDC21C86C36F00A43366 /* rsa_private_key.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
