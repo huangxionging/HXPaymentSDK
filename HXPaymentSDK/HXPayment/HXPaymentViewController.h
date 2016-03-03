@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HXPaymentViewController.h
 //  HXPaymentSDK
 //
 //  Created by huangxiong on 16/3/2.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)payment:(id)sender;
+@interface HXPaymentViewController : UIViewController
 
 @end
-
